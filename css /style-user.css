@@ -1,0 +1,31 @@
+/* User profile section */
+.user-profile {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.user-profile h2 {
+    font-size: 2rem;
+    color: #ff5733;
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-info a {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+.profile-info a:hover {
+    text-decoration: underline;
+}
