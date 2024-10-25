@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Register - Indonesia</title>
+    <link rel="stylesheet" href="css/register-style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pariwisata.html">Pariwisata</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="user.html">User</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="register-container">
+            <h2>Register</h2>
+            <form action="#" method="POST">
+                <!-- Row 1: Nama dan Alamat -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nama">Nama:</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="alamat">Alamat:</label>
+                        <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat Anda" required>
+                    </div>
+                </div>
+
+                <!-- Row 2: Email dan Password -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Masukkan password Anda" required>
+                    </div>
+                </div>
+
+                <!-- Row 3: Pekerjaan dan Penghasilan -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="pekerjaan">Pekerjaan:</label>
+                        <select id="pekerjaan" name="pekerjaan" required>
+                            <option value="" disabled selected>Pilih Pekerjaan Anda</option>
+                            <option value="TNI">TNI</option>
+                            <option value="Polri">Polri</option>
+                            <option value="ASN">ASN</option>
+                            <option value="PNS">PNS</option>
+                            <option value="Dokter">Dokter</option>
+                            <option value="Dosen">Dosen</option>
+                            <option value="Guru">Guru</option>
+                            <option value="Arsitek">Arsitek</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="penghasilan">Penghasilan:</label>
+                        <select id="penghasilan" name="penghasilan" required>
+                            <option value="" disabled selected>Pilih Penghasilan Anda</option>
+                            <option value="2000000-4000000">2.000.000 - 4.000.000</option>
+                            <option value="4000001-6000000">4.000.001 - 6.000.000</option>
+                            <option value="6000001-9000000">6.000.001 - 9.000.000</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Row 4: Gender -->
+                <div class="form-group gender-group">
+                    <label>Gender:</label>
+                    <div>
+                        <input type="checkbox" id="laki-laki" name="gender" value="Laki-laki">
+                        <label for="laki-laki">Laki-laki</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="perempuan" name="gender" value="Perempuan">
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group">
+                    <button type="submit" class="btn-register">Daftar</button>
+                </div>
+                <p>Sudah punya akun? <a href="login.html">Login di sini</a></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Register Indonesia</p>
+    </footer>
+</body>
+</html>
